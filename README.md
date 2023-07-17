@@ -1,10 +1,31 @@
-# Running the DNS Website
+# DNS Website
 
-In the project directory, run:
+## Folder Structure
 
-### `npm install`
+## Running the DNS Website
+```bash
+.
+├── public
+│   ├── index.html                            # runs on one HTML file
+│   └── ...
+└── src
+    ├── components
+    │   └── layout
+    │       ├── Layout.js
+    │       ├── Layout.module.css
+    │       ├── MainNavigation.js
+    │       └── MainNavigation.module.css
+    ├── pages
+    │   ├── Contacts.js
+    │   ├── Home.js
+    │   └── Projects.js
+    ├── App.js
+    ├── index.css
+    └── index.js
+```
 
-Installs all the dependencies from package.json that the projects needs and stores them in the node_modules folder.
+To run the website, you will need to have Node 10.16 or higher and npm 5.6 or higher installed on your machine.
+Once installed, cd into the project directory and run:
 
 ### `npm start`
 
@@ -14,6 +35,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Encountering Errors
+
+If there are any errors, try running:
+
+### `npm install`
+
+Installs all the dependencies from package.json that the projects needs and stores them in the node_modules folder.
+
 If you encounter an error similar to:
 
 ```
@@ -22,7 +51,7 @@ ERROR in ./src/App.js 4:0-49
 Module not found: Error: Can't resolve 'react-router-dom' in 'D:\Github\dnsWeb\src'
 ```
 
-In the project directory, run:
+Run:
 
  ### `npm install react-router-dom --save`
 
