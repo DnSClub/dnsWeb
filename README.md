@@ -2,7 +2,6 @@
 
 ## Folder Structure
 
-## Running the DNS Website
 ```bash
 .
 ├── public
@@ -23,6 +22,8 @@
     ├── index.css
     └── index.js
 ```
+
+## Running the DNS Website
 
 To run the website, you will need to have Node 10.16 or higher and npm 5.6 or higher installed on your machine.
 Once installed, cd into the project directory and run:
