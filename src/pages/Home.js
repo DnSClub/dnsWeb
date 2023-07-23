@@ -11,39 +11,20 @@ function HomePage() {
   return (
     <div className={classes.container}>
       <div className={classes.mainTitle}>
-        {/* this is for the :{ symbol */}
-        <h1 style={{ textAlign: "left" }}>&#123;</h1>
-        <br />
-        <h1>
-          {/* this is to tab*/}
-          &nbsp;&nbsp;&nbsp; dns
-        </h1>
-        <br style={{ lineHeight: "0.5em" }} />
-        <h3>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          developers and systems
-        </h3>
-        <br style={{ lineHeight: "0.5em" }} />
-        <h3>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          created by first years, made for all
-        </h3>
+        <h1>&#123;</h1> {/* { */}
+        <div className={classes.aboutText}>
+          <h1>dns</h1>
+          <h2>developers and systems</h2>
+          <h3>created by first years, made for all</h3>
+        </div>
+        <img className={classes.bagel} src={require('../assets/donut.gif')} alt="3D Sprinning Donut" />
       </div>
-      <div className={classes.bagel}>BAGEL</div>
       <div className={classes.aboutUs}>
         <div className={classes.aboutUsText}>
           <h1>about us</h1>
-          <br />
           <h2>talk to us!</h2>
-          <br />
           <h3>
-            <br />
-            we are prororgramers <br />
-            we arrrghh pirates
-            <br />
-            we fancy coding workshops
-            <br />
-            pls join us we have food
+            we are prororgramers. we arrrghh pirates. we fancy coding workshops. pls join us we have food
           </h3>
         </div>
       </div>

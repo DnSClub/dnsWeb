@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=League+Spartan&family=Roboto+Mono&display=swap');
+
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
-  margin: 0;
   background-color: #fcf3f6;
 }
 
 
 h1 {
-  font-size: 80px;
   color: white;
-  line-height: 0px;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+  line-height: 0.5rem;
 }
 
 h2 {
-  font-size: 20px;
-  color: white;
-  line-height: 2px;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 0.5rem;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
   color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 0.5rem;
 }

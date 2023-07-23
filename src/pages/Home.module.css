@@ -1,25 +1,31 @@
 .container{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .mainTitle{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
-    float: left;
+    height: 100%;
+    max-height: 90vh;
+}
+
+.aboutText{
+    padding-left: 8rem;
 }
 
 .bagel{
-    outline: 0.5px solid #f56476;
-    display: inline-block;
-    margin-right: -15em;
-    text-align: right;
+    float: right;
+    mix-blend-mode: screen;
+    width: 28.19094rem;
+    height: 26.319rem;
 }
 
 .aboutUs{
+    height: 100%;
+    max-height: 90vh;
     outline: 0.5px solid #f56476;
     float: right;
-    margin-right: -15em;
     text-align: right;
 }
 
@@ -30,7 +36,6 @@
 
 .arya{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }
 
@@ -41,30 +46,25 @@
 
 .cohen{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }
 
 .saraang{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }
 
 .song{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }
 
 .sophia{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }
 
 .sam{
     outline: 0.5px solid #f56476;
-    margin-left: -15em;
     float: left;
 }

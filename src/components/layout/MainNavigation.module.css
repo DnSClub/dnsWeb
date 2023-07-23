@@ -4,42 +4,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10%;
-    }
+    padding: 0 5%;
+}
 
 .logo {
-font-size: 2rem;
-color: white;
-font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
 }
 
 .header ul {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-align-items: baseline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
 }
 
 .header li {
-margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 .header a {
-text-decoration: none;
-font-size: 1.5rem;
-color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-color: rgb(163, 161, 161);
+    color: rgb(163, 161, 161);
 }
 
 .badge {
-color: white;
-border-radius: 12px;
-padding: 0 1rem;
-margin-left: 0.5rem;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
 }
