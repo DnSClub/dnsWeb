@@ -17,14 +17,19 @@ function HomePage() {
           <h2>developers and systems</h2>
           <h3>created by first years, made for all</h3>
         </div>
-        <img className={classes.bagel} src={require('../assets/donut.gif')} alt="3D Sprinning Donut" />
+        <img
+          className={classes.bagel}
+          src={require("../assets/donut.gif")}
+          alt="3D Sprinning Donut"
+        />
       </div>
       <div className={classes.aboutUs}>
         <div className={classes.aboutUsText}>
           <h1>about us</h1>
           <h2>talk to us!</h2>
           <h3>
-            we are prororgramers. we arrrghh pirates. we fancy coding workshops. pls join us we have food
+            we are prororgramers. we arrrghh pirates. we fancy coding workshops.
+            pls join us we have food
           </h3>
         </div>
       </div>
@@ -37,6 +42,9 @@ function HomePage() {
       <div className={classes.saraang}>saraabng finance guy</div>
       <div className={classes.sophia}>sophia event woman</div>
       <div className={classes.sam}>sam resource man</div>
+      <div className={classes.footer}>
+        <h3>sophia and sog made this slay</h3>
+      </div>
     </div>
   );
 }
