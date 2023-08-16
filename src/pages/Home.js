@@ -36,12 +36,52 @@ function HomePage() {
 
       <div className={classes.arya}>
         <h2>arya pres guy</h2>
+        <img
+          className={classes.AryaPhoto}
+          src={require("../assets/arya.png")}
+          alt="Arya"
+        />
       </div>
-      <div className={classes.cohen}>cohen vp guy</div>
-      <div className={classes.song}>song woman</div>
-      <div className={classes.saraang}>saraabng finance guy</div>
-      <div className={classes.sophia}>sophia event woman</div>
-      <div className={classes.sam}>sam resource man</div>
+      <div className={classes.cohen}>
+        <h2>cohen vp guy</h2>
+        <img
+          className={classes.cohenPhoto}
+          src={require("../assets/cohen.png")}
+          alt="Cohen"
+        />
+      </div>
+      <div className={classes.song}>
+        song woman{" "}
+        <img
+          className={classes.songPhoto}
+          src={require("../assets/song.png")}
+          alt="Song"
+        />
+      </div>
+      <div className={classes.saraang}>
+        saraabng finance guy{" "}
+        <img
+          className={classes.saraangPhoto}
+          src={require("../assets/saraang.png")}
+          alt="Saraang"
+        />
+      </div>
+      <div className={classes.sophia}>
+        sophia event woman
+        <img
+          className={classes.sophiaPhoto}
+          src={require("../assets/sophia.jpg")}
+          alt="Sophia"
+        />
+      </div>
+      <div className={classes.sam}>
+        sam resource man
+        <img
+          className={classes.samPhoto}
+          src={require("../assets/sam.jpg")}
+          alt="Sam"
+        />
+      </div>
       <div className={classes.footer}>
         <h3>sophia and sog made this slay</h3>
       </div>

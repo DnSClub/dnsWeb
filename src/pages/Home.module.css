@@ -39,6 +39,13 @@
     float: left;
 }
 
+.aryaPhoto{
+    float: right;
+    mix-blend-mode: screen;
+    width: 28.19094rem;
+    height: 26.319rem;
+}
+
 .aryaText{
     color: white;
     text-align: center;
@@ -49,9 +56,21 @@
     float: left;
 }
 
+.cohenPhoto{
+    float: right;
+    width: 28.19094rem;
+    height: 26.319rem;
+}
+
 .saraang{
     outline: 0.5px solid #f56476;
     float: left;
+}
+
+.saraangPhoto{
+    float: right;
+    width: 28.19094rem;
+    height: 47rem;
 }
 
 .song{
@@ -59,14 +78,32 @@
     float: left;
 }
 
+.songPhoto{
+    float: right;
+    width: 28.19094rem;
+    height: 35rem;
+}
+
 .sophia{
     outline: 0.5px solid #f56476;
     float: left;
 }
 
+.sophiaPhoto{
+    float: right;
+    width: 28.19094rem;
+    height: 36rem;
+}
+
 .sam{
     outline: 0.5px solid #f56476;
     float: left;
+}
+
+.samPhoto{
+    float: right;
+    width: 28.19094rem;
+    height: 36rem;
 }
 
 .footer{
