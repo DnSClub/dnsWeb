@@ -35,7 +35,8 @@ function HomePage() {
       </div>
 
       <div className={classes.arya}>
-        <h2>arya pres guy</h2>
+        <h2>president</h2>
+        <h3>Arya</h3>
         <img
           className={classes.AryaPhoto}
           src={require("../assets/arya.png")}
@@ -43,7 +44,8 @@ function HomePage() {
         />
       </div>
       <div className={classes.cohen}>
-        <h2>cohen vp guy</h2>
+        <h2>vice-president</h2>
+        <h3>Cohen</h3>
         <img
           className={classes.cohenPhoto}
           src={require("../assets/cohen.png")}
@@ -51,7 +53,8 @@ function HomePage() {
         />
       </div>
       <div className={classes.song}>
-        song woman{" "}
+        <h2>director of communications and multimedia</h2>
+        <h3>Song</h3>
         <img
           className={classes.songPhoto}
           src={require("../assets/song.png")}
@@ -59,7 +62,8 @@ function HomePage() {
         />
       </div>
       <div className={classes.saraang}>
-        saraabng finance guy{" "}
+        <h2>director of finance</h2>
+        <h3>Saraang</h3>
         <img
           className={classes.saraangPhoto}
           src={require("../assets/saraang.png")}
@@ -67,7 +71,8 @@ function HomePage() {
         />
       </div>
       <div className={classes.sophia}>
-        sophia event woman
+        <h2>director of events</h2>
+        <h3>Sophia</h3>
         <img
           className={classes.sophiaPhoto}
           src={require("../assets/sophia.jpg")}
@@ -75,7 +80,8 @@ function HomePage() {
         />
       </div>
       <div className={classes.sam}>
-        sam resource man
+        <h2>director of resources</h2>
+        <h3>Sam</h3>
         <img
           className={classes.samPhoto}
           src={require("../assets/sam.jpg")}

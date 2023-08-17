@@ -36,10 +36,11 @@
 
 .arya{
     outline: 0.5px solid #f56476;
-    float: left;
+    text-align: left;
 }
 
 .aryaPhoto{
+    outline: 3px solid white;
     float: right;
     mix-blend-mode: screen;
     width: 28.19094rem;
@@ -53,43 +54,50 @@
 
 .cohen{
     outline: 0.5px solid #f56476;
-    float: left;
+    float: right;
+    text-align: right;
 }
 
 .cohenPhoto{
-    float: right;
+    outline: 3px solid white;
+    float: left;
     width: 28.19094rem;
     height: 26.319rem;
 }
 
-.saraang{
-    outline: 0.5px solid #f56476;
-    float: left;
-}
-
-.saraangPhoto{
-    float: right;
-    width: 28.19094rem;
-    height: 47rem;
-}
 
 .song{
     outline: 0.5px solid #f56476;
-    float: left;
+    text-align: left;
 }
 
+
 .songPhoto{
+    outline: 3px solid white;
     float: right;
     width: 28.19094rem;
     height: 35rem;
 }
 
+.saraang{
+    outline: 0.5px solid #f56476;
+    float: right;
+    text-align: right;
+}
+
+.saraangPhoto{
+    outline: 3px solid white;
+    float: left;
+    width: 28.19094rem;
+    height: 47rem;
+}
 .sophia{
     outline: 0.5px solid #f56476;
-    float: left;
+    text-align: left;
 }
 
 .sophiaPhoto{
+    outline: 3px solid white;
     float: right;
     width: 28.19094rem;
     height: 36rem;
@@ -97,11 +105,13 @@
 
 .sam{
     outline: 0.5px solid #f56476;
-    float: left;
+    float: right;
+    text-align: right;
 }
 
 .samPhoto{
-    float: right;
+    outline: 3px solid white;
+    float: left;
     width: 28.19094rem;
     height: 36rem;
 }

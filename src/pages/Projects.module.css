@@ -1,3 +1,8 @@
+.links{
+    font-size: 1.9em;
+    font-style: italic;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -13,11 +18,25 @@
 .project1{
     outline: 0.5px solid #f56476;
     float: left;
+    text-align: left;
+}
+
+.project1photo{
+    float: right;
+    width: 200px;
+    height: auto;
 }
 
 .project2{
     outline: 0.5px solid #f56476;
     float: left;
+    text-align: left;
+}
+
+.project2photo{
+    width: 200px;
+    height: auto;
+    float: right;
 }
 
 .footer{
