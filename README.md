@@ -26,6 +26,10 @@
 ## Running the DNS Website
 
 To run the website, you will need to have Node 10.16 or higher and npm 5.6 or higher installed on your machine.
+
+Make sure to install the following before running the server:
+### `npm install react-icons`
+
 Once installed, cd into the project directory and run:
 
 ### `npm start`
