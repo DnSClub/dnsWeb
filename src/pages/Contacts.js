@@ -2,6 +2,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
 import { useEffect } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { BsDiscord } from "react-icons/bs";
 import classes from "./Contact.module.css";
 
 function ContactsPage() {
@@ -21,18 +22,22 @@ function ContactsPage() {
       </div>
       <div className={classes.contact}>
         <a href="dns_exec@sfu.ca" className={classes.links}>
-          <AiOutlineMail style={{ fill: "white" }} /> send us an email!
+          <AiOutlineMail style={{ fill: "white" }} /> send us an email
         </a>
         <br></br>
         <a
           href="https://www.linkedin.com/company/sfudns/"
           className={classes.links}
         >
-          <CiLinkedin style={{ fill: "white" }} /> connect with us!
+          <CiLinkedin style={{ fill: "white" }} /> connect with us
         </a>
         <br></br>
         <a href="https://www.instagram.com/sfu_dns" className={classes.links}>
-          <AiOutlineInstagram style={{ fill: "white" }} /> follow us!
+          <AiOutlineInstagram style={{ fill: "white" }} /> follow us
+        </a>
+        <br></br>
+        <a href="https://discord.gg/bDTJYPXu" className={classes.links}>
+          <BsDiscord style={{ fill: "white" }} /> join our discord
         </a>
       </div>
     </div>

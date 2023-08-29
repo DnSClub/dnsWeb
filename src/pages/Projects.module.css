@@ -1,6 +1,7 @@
 .links{
     font-size: 1.9em;
     font-style: italic;
+    text-decoration: none;
 }
 
 .container{
@@ -15,28 +16,25 @@
     max-height: 90vh;
 }
 
-.project1{
+.aboutText{
+    padding-left: 8rem;
+}
+
+.project{
     outline: 0.5px solid #f56476;
     float: left;
     text-align: left;
 }
 
-.project1photo{
-    float: right;
-    width: 200px;
-    height: auto;
-}
-
-.project2{
+.projectDesc{
     outline: 0.5px solid #f56476;
-    float: left;
-    text-align: left;
+    width: 50em;
 }
 
-.project2photo{
-    width: 200px;
-    height: auto;
+.projectphoto{
     float: right;
+    width: 600px;
+    height: auto;
 }
 
 .footer{

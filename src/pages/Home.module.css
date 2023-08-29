@@ -92,6 +92,12 @@
     width: 100%;
 }
 
+.persontext {
+    outline: 0.5px solid #f56476;
+    width: 40em;
+    font-size:22px;
+}
+
 .footer{
     outline: 0.5px solid #f56476;
     text-align: center;

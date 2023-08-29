@@ -13,19 +13,17 @@ function ProjectsPage() {
     <div className={classes.container}>
       <div className={classes.mainTitle}>
         <h1>&#123;</h1>
-        <h1>
-          projects and
-          <br />
-          events
-        </h1>
-        <h2>our github</h2>
+        <div className={classes.aboutText}>
+          <h1>
+            projects and
+            <br />
+            events
+          </h1>
+        </div>
       </div>
       <br></br>
-      <div className={classes.project1}>
+      <div className={classes.project}>
         <h2>Make Your Own Programming Language</h2>
-        <br></br>
-        <h3>Creating a programming language using Python, Rust, C, or C++</h3>
-        <br></br>
         <b>
           {" "}
           <a
@@ -35,21 +33,20 @@ function ProjectsPage() {
             <AiFillGithub style={{ fill: "white" }} /> more information
           </a>
         </b>
-        <br></br>
         <img
-          className={classes.project1Photo}
+          className={classes.projectphoto}
           src={require("../assets/makeown.png")}
           alt="Make Your Own Programming Language"
         />
+        <div className={classes.projectDesc}>
+          <h3>
+            Our first icebreaker event creating a programming language using
+            Python, Rust, C, or C++
+          </h3>
+        </div>
       </div>
-      <div className={classes.project2}>
+      <div className={classes.project}>
         <h2>LIBCOMP.A: A SFU CSSS x DNS Collaboration</h2>
-        <h3>
-          A collaboration with SFU's Computing Science Student Society
-          hackathon. Participants used pre-built libraries from DNS and the CSSS
-          to create projects.
-        </h3>
-        <br></br>
         <b>
           {" "}
           <a
@@ -59,12 +56,18 @@ function ProjectsPage() {
             <AiFillGithub style={{ fill: "white" }} /> more information
           </a>
         </b>
-        <br></br>
         <img
-          className={classes.project2Photo}
+          className={classes.projectphoto}
           src={require("../assets/libcomp.png")}
           alt="Lib Comp A"
         />
+        <div className={classes.projectDesc}>
+          <h3>
+            A collaboration with SFU's Computing Science Student Society
+            hackathon. Participants used pre-built libraries from DNS and the
+            CSSS to create projects.
+          </h3>
+        </div>
       </div>
 
       <div className={classes.footer}>
