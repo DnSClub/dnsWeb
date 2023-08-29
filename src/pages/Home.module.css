@@ -1,13 +1,15 @@
 .container{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-content: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .mainTitle{
     outline: 0.5px solid #f56476;
-    height: 100%;
-    max-height: 90vh;
+    height: 90vh;
 }
 
 .aboutText{
@@ -15,10 +17,10 @@
 }
 
 .bagel{
-    float: right;
     mix-blend-mode: screen;
-    width: 28.19094rem;
-    height: 26.319rem;
+    position: absolute; bottom: 5%; right: 5%;
+    height: 50rem;
+    max-height: 50%;
 }
 
 .aboutUs{
@@ -34,91 +36,54 @@
     text-align: right;
 }
 
-.arya{
+@media only screen and (min-width: 960px) {
+  .mainTitle {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 3400px) {
+    .container {
+        width: 60%;
+    }
+    
+    .mainTitle {
+        height: 60%;
+    }
+
+    .bagel {
+        position: absolute;
+    }
+}
+
+.people {
+    width: 100%;
+}
+
+.people img {
+    outline: 3px solid white;
+    float: right;
+    width: 300px; height: 337px; object-fit: scale-down;
+}
+
+.personleft {
     outline: 0.5px solid #f56476;
     text-align: left;
     float: left;
-    width: 80em;
+    width: 100%;
 }
 
-.aryaPhoto{
-    outline: 3px solid white;
-    float: right;
-    width: 300px; height: 337px; object-fit: scale-down;
-}
-
-.aryaText{
-    color: white;
-    text-align: center;
-}
-
-.cohen{
+.personright {
     outline: 0.5px solid #f56476;
     float: right;
     text-align: right;
-    width: 80em;
-}
-
-.cohenPhoto{
-    outline: 3px solid white;
-    float: left;
-    width: 300px; height: 337px; object-fit: scale-down;
-}
-
-
-.song{
-    outline: 0.5px solid #f56476;
-    text-align: left;
-    width: 80em;
-}
-
-
-.songPhoto{
-    outline: 3px solid white;
-    float: right;
-    width: 300px; height: 337px; object-fit: scale-down;
-}
-
-.saraang{
-    outline: 0.5px solid #f56476;
-    float: right;
-    text-align: right;
-    width: 80em;
-}
-
-.saraangPhoto{
-    outline: 3px solid white;
-    float: left;
-    width: 300px; 
-    height: 337px; 
-    object-fit: scale-down;
-}
-.sophia{
-    outline: 0.5px solid #f56476;
-    text-align: left;
-    width: 80em;
-}
-
-.sophiaPhoto{
-    outline: 3px solid white;
-    float: right;
-    width: 300px; height: 337px; object-fit: scale-down;
-}
-
-.sam{
-    outline: 0.5px solid #f56476;
-    float: right;
-    text-align: right;
-    width: 80em;
-}
-
-.samPhoto{
-    outline: 3px solid white;
-    float: left;
-    width: 300px; height: 337px; object-fit: scale-down;
+    width: 100%;
 }
 
 .footer{
     outline: 0.5px solid #f56476;
     text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

@@ -34,117 +34,119 @@ function HomePage() {
         </div>
       </div>
 
-      <div className={classes.arya}>
-        <h2>president</h2>
-        <h3>Arya</h3>
-        <img
-          className={classes.aryaPhoto}
-          src={require("../assets/arya.png")}
-          alt="Arya"
-        />
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/aryafaghihy/"
-            className={classes.links}
-          >
-            <CiLinkedin style={{ fill: "white" }} />
-          </a>
-        </h2>
-      </div>
-      <div className={classes.cohen}>
-        <h2>vice-president</h2>
-        <h3>Cohen</h3>
-        <img
-          className={classes.cohenPhoto}
-          src={require("../assets/cohen.png")}
-          alt="Cohen"
-        />
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/cohen-ter-heide-a12729272/"
-            className={classes.links}
-          >
-            <CiLinkedin style={{ fill: "white" }} />
-          </a>
+      <div className={classes.people}>
+        <div className={classes.personleft}>
+          <h2>president</h2>
+          <h3>Arya</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/arya.png")}
+            alt="Arya"
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/aryafaghihy/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
+          </h2>
+        </div>
+        <div className={classes.personright}>
+          <h2>vice-president</h2>
+          <h3>Cohen</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/cohen.png")}
+            alt="Cohen"
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/cohen-ter-heide-a12729272/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
 
-          <a href="cjt15@sfu.ca" className={classes.links}>
-            <AiOutlineMail style={{ fill: "white" }} />
-          </a>
-        </h2>
-      </div>
-      <div className={classes.song}>
-        <h2>director of communications and multimedia</h2>
-        <h3>Song</h3>
-        <img
-          className={classes.songPhoto}
-          src={require("../assets/song.png")}
-          alt="Song"
-        />
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/eunsongkoh/"
-            className={classes.links}
-          >
-            <CiLinkedin style={{ fill: "white" }} />
-          </a>
-          <a href="eka74@sfu.ca" className={classes.links}>
-            <AiOutlineMail style={{ fill: "white" }} />
-          </a>
-          <br></br>
-        </h2>
-        Hello! I'm Song! I'm a Computing Science student at Simon Fraser
-        University <br></br>who's passionate about everything related to
-        computer science.I find myself <br></br>drawn to areas like full-stack
-        development, engineering, product management, <br></br>and
-        cybersecurity. <br></br>
-        <br></br>I love learning and always stay curious about the latest
-        innovations and <br></br>breakthroughs in technology. On top of that, I
-        enjoy getting creative <br></br>with digital projects, whether it's
-        working with DNS or video editing for <br></br>the SFU Computing Student
-        Society social media.
-      </div>
-      <div className={classes.saraang}>
-        <h2>director of finance</h2>
-        <h3>Saarang</h3>
-        <img
-          className={classes.saraangPhoto}
-          src={require("../assets/saraang.png")}
-          alt="Saarang"
-        />
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/saaranganand/"
-            className={classes.links}
-          >
-            <CiLinkedin style={{ fill: "white" }} />
-          </a>
-        </h2>
-      </div>
-      <div className={classes.sophia}>
-        <h2>director of events</h2>
-        <h3>Sophia</h3>
-        <img
-          className={classes.sophiaPhoto}
-          src={require("../assets/sophia.jpg")}
-          alt="Sophia"
-        />
-        <h2>
-          <a
-            href="https://www.linkedin.com/in/sophiadontranho/"
-            className={classes.links}
-          >
-            <CiLinkedin style={{ fill: "white" }} />
-          </a>
-        </h2>
-      </div>
-      <div className={classes.sam}>
-        <h2>director of resources</h2>
-        <h3>Sam</h3>
-        <img
-          className={classes.samPhoto}
-          src={require("../assets/sam.jpg")}
-          alt="Sam"
-        />
+            <a href="cjt15@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
+            </a>
+          </h2>
+        </div>
+        <div className={classes.personleft}>
+          <h2>director of communications and multimedia</h2>
+          <h3>Song</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/song.png")}
+            alt="Song"
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/eunsongkoh/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
+            <a href="eka74@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
+            </a>
+            <br></br>
+          </h2>
+          Hello! I'm Song! I'm a Computing Science student at Simon Fraser
+          University <br></br>who's passionate about everything related to
+          computer science.I find myself <br></br>drawn to areas like full-stack
+          development, engineering, product management, <br></br>and
+          cybersecurity. <br></br>
+          <br></br>I love learning and always stay curious about the latest
+          innovations and <br></br>breakthroughs in technology. On top of that, I
+          enjoy getting creative <br></br>with digital projects, whether it's
+          working with DNS or video editing for <br></br>the SFU Computing Student
+          Society social media.
+        </div>
+        <div className={classes.personright}>
+          <h2>director of finance</h2>
+          <h3>Saarang</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/saraang.png")}
+            alt="Saarang"
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/saaranganand/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
+          </h2>
+        </div>
+        <div className={classes.personleft}>
+          <h2>director of events</h2>
+          <h3>Sophia</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/sophia.jpg")}
+            alt="Sophia"
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/sophiadontranho/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
+          </h2>
+        </div>
+        <div className={classes.personright}>
+          <h2>director of resources</h2>
+          <h3>Sam</h3>
+          <img
+            className={classes.personPhoto}
+            src={require("../assets/sam.jpg")}
+            alt="Sam"
+          />
+        </div>
       </div>
       <div className={classes.footer}>
         <h3>sophia and sog made this slay</h3>
