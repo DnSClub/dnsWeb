@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import classes from "./Home.module.css";
+import { CiLinkedin } from "react-icons/ci";
 function HomePage() {
   useEffect(() => {
     document.body.style.background =
@@ -27,9 +28,7 @@ function HomePage() {
         <div className={classes.aboutUsText}>
           <h1>about us</h1>
           <h2>who are we?</h2>
-          <h3>
-            a club dedicated to 
-          </h3>
+          <h3>a club dedicated to</h3>
         </div>
       </div>
 
@@ -37,10 +36,18 @@ function HomePage() {
         <h2>president</h2>
         <h3>Arya</h3>
         <img
-          className={classes.AryaPhoto}
+          className={classes.aryaPhoto}
           src={require("../assets/arya.png")}
           alt="Arya"
         />
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/aryafaghihy/"
+            className={classes.links}
+          >
+            <CiLinkedin style={{ fill: "white" }} />
+          </a>
+        </h2>
       </div>
       <div className={classes.cohen}>
         <h2>vice-president</h2>
