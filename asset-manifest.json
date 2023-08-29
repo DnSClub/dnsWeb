@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/dnsWeb/static/css/main.dd15ac96.css",
-    "main.js": "/dnsWeb/static/js/main.c0beac3f.js",
+    "main.css": "/dnsWeb/static/css/main.38f71413.css",
+    "main.js": "/dnsWeb/static/js/main.7328b0b8.js",
     "static/media/saraang.png": "/dnsWeb/static/media/saraang.33f5dbb982bcc8040b65.png",
     "static/media/sophia.jpg": "/dnsWeb/static/media/sophia.d3d7fcb8613aa0b58505.jpg",
     "static/media/arya.png": "/dnsWeb/static/media/arya.6e5db0531ab356dea4a5.png",
     "static/media/sam.jpg": "/dnsWeb/static/media/sam.f5bad041ba384b4d7148.jpg",
     "static/media/song.png": "/dnsWeb/static/media/song.30eb96878b9b19b06888.png",
     "static/media/cohen.png": "/dnsWeb/static/media/cohen.b1019c02d0c0e2e23bbd.png",
+    "static/media/vectorsphere.gif": "/dnsWeb/static/media/vectorsphere.e47b374aa316c15c3121.gif",
     "static/media/makeown.png": "/dnsWeb/static/media/makeown.b4648711fa2c4c72a58e.png",
     "static/media/libcomp.png": "/dnsWeb/static/media/libcomp.3aeb3deb8392bd1c1f0f.png",
     "static/media/donut.gif": "/dnsWeb/static/media/donut.e9a886c44f66b704df78.gif",
     "index.html": "/dnsWeb/index.html",
-    "main.dd15ac96.css.map": "/dnsWeb/static/css/main.dd15ac96.css.map",
-    "main.c0beac3f.js.map": "/dnsWeb/static/js/main.c0beac3f.js.map"
+    "main.38f71413.css.map": "/dnsWeb/static/css/main.38f71413.css.map",
+    "main.7328b0b8.js.map": "/dnsWeb/static/js/main.7328b0b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd15ac96.css",
-    "static/js/main.c0beac3f.js"
+    "static/css/main.38f71413.css",
+    "static/js/main.7328b0b8.js"
   ]
 }
