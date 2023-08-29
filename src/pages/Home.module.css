@@ -10,9 +10,11 @@
 .mainTitle{
     outline: 0.5px solid #f56476;
     height: 90vh;
+    position: relative;
 }
 
 .aboutText{
+    margin: auto;
     padding-left: 8rem;
 }
 
@@ -23,12 +25,18 @@
     max-height: 50%;
 }
 
+.sphere {
+    mix-blend-mode: screen;
+    position: absolute; bottom: 5%; left: 5%;
+    height: 50rem;
+    max-height: 50%;
+}
+
 .aboutUs{
-    height: 100%;
-    max-height: 90vh;
+    height: 90vh;
     outline: 0.5px solid #f56476;
-    float: right;
     text-align: right;
+    position: relative;
 }
 
 .aboutUsText{

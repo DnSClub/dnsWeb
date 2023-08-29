@@ -16,16 +16,12 @@ h1 {
   font-size: 8rem;
   font-style: normal;
   font-weight: 400;
-  padding-top: 3rem;
-  padding-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 3rem;
   font-style: normal;
   font-weight: 400;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 h3 {
@@ -33,6 +29,4 @@ h3 {
   font-style: normal;
   font-weight: 400;
   color: white;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }

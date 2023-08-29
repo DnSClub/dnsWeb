@@ -14,8 +14,8 @@ function HomePage() {
   return (
     <div className={classes.container}>
       <div className={classes.mainTitle}>
-        <h1>&#123;</h1> {/* { */}
         <div className={classes.aboutText}>
+          <h1>&#123;</h1> {/* { */}
           <h1>dns</h1>
           <h2>developers and systems</h2>
           <h3>created by first years, made for all</h3>
@@ -23,7 +23,7 @@ function HomePage() {
         <img
           className={classes.bagel}
           src={require("../assets/donut.gif")}
-          alt="3D Sprinning Donut"
+          alt="3D Spinning Donut"
         />
       </div>
       <div className={classes.aboutUs}>
@@ -34,6 +34,11 @@ function HomePage() {
             a club dedicated to bringing workshop/hackathon styled events for
             coders of all levels
           </h3>
+          <img
+          className={classes.sphere}
+          src={require("../assets/vectorsphere.gif")}
+          alt="3D Spinning Vector Sphere"
+          />
         </div>
       </div>
 
