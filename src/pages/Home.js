@@ -26,10 +26,9 @@ function HomePage() {
       <div className={classes.aboutUs}>
         <div className={classes.aboutUsText}>
           <h1>about us</h1>
-          <h2>talk to us!</h2>
+          <h2>who are we?</h2>
           <h3>
-            we are prororgramers. we arrrghh pirates. we fancy coding workshops.
-            pls join us we have food
+            a club dedicated to 
           </h3>
         </div>
       </div>

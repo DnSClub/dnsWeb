@@ -43,8 +43,7 @@
     outline: 3px solid white;
     float: right;
     mix-blend-mode: screen;
-    width: 28.19094rem;
-    height: 26.319rem;
+    width: 300px; height: 337px; object-fit: scale-down;
 }
 
 .aryaText{
@@ -61,8 +60,7 @@
 .cohenPhoto{
     outline: 3px solid white;
     float: left;
-    width: 28.19094rem;
-    height: 26.319rem;
+    width: 300px; height: 337px; object-fit: scale-down;
 }
 
 
@@ -75,8 +73,7 @@
 .songPhoto{
     outline: 3px solid white;
     float: right;
-    width: 28.19094rem;
-    height: 35rem;
+    width: 300px; height: 337px; object-fit: scale-down;
 }
 
 .saraang{
@@ -88,8 +85,9 @@
 .saraangPhoto{
     outline: 3px solid white;
     float: left;
-    width: 28.19094rem;
-    height: 47rem;
+    width: 300px; 
+    height: 337px; 
+    object-fit: scale-down;
 }
 .sophia{
     outline: 0.5px solid #f56476;
@@ -99,8 +97,7 @@
 .sophiaPhoto{
     outline: 3px solid white;
     float: right;
-    width: 28.19094rem;
-    height: 36rem;
+    width: 300px; height: 337px; object-fit: scale-down;
 }
 
 .sam{
@@ -112,8 +109,7 @@
 .samPhoto{
     outline: 3px solid white;
     float: left;
-    width: 28.19094rem;
-    height: 36rem;
+    width: 300px; height: 337px; object-fit: scale-down;
 }
 
 .footer{
