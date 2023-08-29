@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import classes from "./Home.module.css";
 import { CiLinkedin } from "react-icons/ci";
+import { AiOutlineMail } from "react-icons/ai";
+
 function HomePage() {
   useEffect(() => {
     document.body.style.background =
@@ -57,6 +59,18 @@ function HomePage() {
           src={require("../assets/cohen.png")}
           alt="Cohen"
         />
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/cohen-ter-heide-a12729272/"
+            className={classes.links}
+          >
+            <CiLinkedin style={{ fill: "white" }} />
+          </a>
+
+          <a href="cjt15@sfu.ca" className={classes.links}>
+            <AiOutlineMail style={{ fill: "white" }} />
+          </a>
+        </h2>
       </div>
       <div className={classes.song}>
         <h2>director of communications and multimedia</h2>
@@ -66,15 +80,45 @@ function HomePage() {
           src={require("../assets/song.png")}
           alt="Song"
         />
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/eunsongkoh/"
+            className={classes.links}
+          >
+            <CiLinkedin style={{ fill: "white" }} />
+          </a>
+          <a href="eka74@sfu.ca" className={classes.links}>
+            <AiOutlineMail style={{ fill: "white" }} />
+          </a>
+          <br></br>
+        </h2>
+        Hello! I'm Song! I'm a Computing Science student at Simon Fraser
+        University <br></br>who's passionate about everything related to
+        computer science.I find myself <br></br>drawn to areas like full-stack
+        development, engineering, product management, <br></br>and
+        cybersecurity. <br></br>
+        <br></br>I love learning and always stay curious about the latest
+        innovations and <br></br>breakthroughs in technology. On top of that, I
+        enjoy getting creative <br></br>with digital projects, whether it's
+        working with DNS or video editing for <br></br>the SFU Computing Student
+        Society social media.
       </div>
       <div className={classes.saraang}>
         <h2>director of finance</h2>
-        <h3>Saraang</h3>
+        <h3>Saarang</h3>
         <img
           className={classes.saraangPhoto}
           src={require("../assets/saraang.png")}
-          alt="Saraang"
+          alt="Saarang"
         />
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/saaranganand/"
+            className={classes.links}
+          >
+            <CiLinkedin style={{ fill: "white" }} />
+          </a>
+        </h2>
       </div>
       <div className={classes.sophia}>
         <h2>director of events</h2>
@@ -84,6 +128,14 @@ function HomePage() {
           src={require("../assets/sophia.jpg")}
           alt="Sophia"
         />
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/sophiadontranho/"
+            className={classes.links}
+          >
+            <CiLinkedin style={{ fill: "white" }} />
+          </a>
+        </h2>
       </div>
       <div className={classes.sam}>
         <h2>director of resources</h2>

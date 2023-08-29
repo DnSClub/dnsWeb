@@ -38,6 +38,7 @@
     outline: 0.5px solid #f56476;
     text-align: left;
     float: left;
+    width: 80em;
 }
 
 .aryaPhoto{
@@ -55,6 +56,7 @@
     outline: 0.5px solid #f56476;
     float: right;
     text-align: right;
+    width: 80em;
 }
 
 .cohenPhoto{
@@ -67,6 +69,7 @@
 .song{
     outline: 0.5px solid #f56476;
     text-align: left;
+    width: 80em;
 }
 
 
@@ -80,6 +83,7 @@
     outline: 0.5px solid #f56476;
     float: right;
     text-align: right;
+    width: 80em;
 }
 
 .saraangPhoto{
@@ -92,6 +96,7 @@
 .sophia{
     outline: 0.5px solid #f56476;
     text-align: left;
+    width: 80em;
 }
 
 .sophiaPhoto{
@@ -104,6 +109,7 @@
     outline: 0.5px solid #f56476;
     float: right;
     text-align: right;
+    width: 80em;
 }
 
 .samPhoto{
