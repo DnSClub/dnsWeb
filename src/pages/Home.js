@@ -30,7 +30,10 @@ function HomePage() {
         <div className={classes.aboutUsText}>
           <h1>about us</h1>
           <h2>who are we?</h2>
-          <h3>a club dedicated to</h3>
+          <h3>
+            a club dedicated to bringing workshop/hackathon styled events for
+            coders of all levels
+          </h3>
         </div>
       </div>
 
@@ -51,6 +54,12 @@ function HomePage() {
               <CiLinkedin style={{ fill: "white" }} />
             </a>
           </h2>
+          I am passionate about cryptography, machine learning, quantum
+          computing, <br></br>and mathematics. I've been the recipient of
+          numerous academic awards,
+          <br></br>demonstrating my commitment to excellence as well as teamwork
+          and <br></br>leadership skills. My coursework has given me experience
+          in <br></br>Java, Python, C, and C++.
         </div>
         <div className={classes.personright}>
           <h2>vice-president</h2>
@@ -99,10 +108,10 @@ function HomePage() {
           development, engineering, product management, <br></br>and
           cybersecurity. <br></br>
           <br></br>I love learning and always stay curious about the latest
-          innovations and <br></br>breakthroughs in technology. On top of that, I
-          enjoy getting creative <br></br>with digital projects, whether it's
-          working with DNS or video editing for <br></br>the SFU Computing Student
-          Society social media.
+          innovations and <br></br>breakthroughs in technology. On top of that,
+          I enjoy getting creative <br></br>with digital projects, whether it's
+          working with DNS or video editing for <br></br>the SFU Computing
+          Student Society social media.
         </div>
         <div className={classes.personright}>
           <h2>director of finance</h2>
@@ -118,6 +127,9 @@ function HomePage() {
               className={classes.links}
             >
               <CiLinkedin style={{ fill: "white" }} />
+            </a>
+            <a href="eka74@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
         </div>
@@ -137,6 +149,23 @@ function HomePage() {
               <CiLinkedin style={{ fill: "white" }} />
             </a>
           </h2>
+          My name's Sophia and I'm a first-year studying computer science at
+          <br></br>Simon Fraser University. I'm still exploring but I have an
+          interest<br></br> in software development, game development, AI, ML,
+          and UI/UX design. <br></br>With my passions, I am looking forward to
+          pursuing a career in <br></br>software engineering. <br></br>
+          <br></br>💻 I have been heavily involved in workshops, hackathons, and
+          <br></br>projects to broaden and strengthen my skills. In my leisure,
+          <br></br>I tinker with my projects, such as my AI Discord chat bots.
+          <br></br>From these experiences, I have expanded my proficiency in
+          Python, C, <br></br>C++, HTML, CSS, and SQL and learnt how to use
+          tools such as Figma, <br></br>Bootstrap, and various APIs. Currently,
+          I am working at a student-led <br></br>non-profit organization,
+          Project Tech Conferences, as <br></br>part of their tech committee's
+          front end developer to help provide <br></br>students technological
+          opportunities. Along my journey, I aspire to <br></br>
+          meet new people and make new memories as I take on new experiences and
+          opportunities!
         </div>
         <div className={classes.personright}>
           <h2>director of resources</h2>

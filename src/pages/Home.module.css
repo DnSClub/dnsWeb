@@ -66,6 +66,18 @@
     width: 300px; height: 337px; object-fit: scale-down;
 }
 
+.personleft img{
+    outline: 3px solid white;
+    float: right;
+    width: 300px; height: 337px; object-fit: scale-down;
+}
+
+.personright img{
+    outline: 3px solid white;
+    float: left;
+    width: 300px; height: 337px; object-fit: scale-down;
+}
+
 .personleft {
     outline: 0.5px solid #f56476;
     text-align: left;
