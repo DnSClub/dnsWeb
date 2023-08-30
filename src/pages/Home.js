@@ -49,28 +49,28 @@ function HomePage() {
 
       <div className={classes.people}>
         <div className={classes.personleft}>
-          <h2>president</h2>
-          <h3>Arya</h3>
-          <img
+            <h2>president</h2>
+            <h3>Arya Faghihy</h3>
+            <img
             className={classes.personPhoto}
             src={require("../assets/arya.png")}
-            alt="Arya"
-          />
-          <h2>
-            <a
-              href="https://www.linkedin.com/in/aryafaghihy/"
-              className={classes.links}
-            >
-              <CiLinkedin style={{ fill: "white" }} />
-            </a>
-          </h2>
-          <div className={classes.persontext}>
-            I am passionate about cryptography, machine learning, quantum
-            computing,and mathematics. I've been the recipient of numerous
-            academic awards, demonstrating my commitment to excellence as well
-            as teamwork and leadership skills. My coursework has given me
-            experience in Java, Python, C, and C++.
-          </div>
+            alt="Arya Faghihy"
+            />
+            <h2>
+              <a
+                href="https://www.linkedin.com/in/aryafaghihy/"
+                className={classes.links}
+              >
+                <CiLinkedin style={{ fill: "white" }} />
+              </a>
+            </h2>
+            <div className={classes.persontext}>
+              I am passionate about cryptography, machine learning, quantum
+              computing,and mathematics. I've been the recipient of numerous
+              academic awards, demonstrating my commitment to excellence as well
+              as teamwork and leadership skills. My coursework has given me
+              experience in Java, Python, C, and C++.
+            </div>
         </div>
         <div className={classes.personright}>
           <h2>vice-president</h2>
@@ -191,7 +191,7 @@ function HomePage() {
         </div>
       </div>
       <div className={classes.footer}>
-        <h3>sophia and sog made this slay</h3>
+        sophia and sog made this slay &#169;
       </div>
     </div>
   );
