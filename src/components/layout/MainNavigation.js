@@ -13,7 +13,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>&#123;dns</div>
+      <div className={classes.logo}>&#123;<div className={classes.dns}>dns</div></div>
       <nav>
         <ul>
           <li>

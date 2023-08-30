@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.dns {
+    padding-left: 40px;
+}
+
 @media only screen and (min-width: 3400px) {
     .header {
         width: 60%;
@@ -41,7 +45,8 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-    color: rgb(163, 161, 161);
+    opacity: 0.5;
+    transition: 0.3s;
 }
 
 .badge {

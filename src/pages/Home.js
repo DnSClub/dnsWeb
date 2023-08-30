@@ -14,11 +14,13 @@ function HomePage() {
   return (
     <div className={classes.container}>
       <div className={classes.mainTitle}>
-        <div className={classes.aboutText}>
+        <div className={classes.TitleText}>
           <h1>&#123;</h1> {/* { */}
-          <h1>dns</h1>
-          <h2>developers and systems</h2>
-          <h3>created by first years, made for all</h3>
+            <div className={classes.TitleWords}>
+            <h1>dns</h1>
+            <h2>developers and systems</h2>
+            <h3>created by first years, made for all</h3>
+          </div>
         </div>
         <img
           className={classes.bagel}
@@ -26,14 +28,17 @@ function HomePage() {
           alt="3D Spinning Donut"
         />
       </div>
+      
       <div className={classes.aboutUs}>
         <div className={classes.aboutUsText}>
-          <h1>about us</h1>
-          <h2>who are we?</h2>
-          <h3>
-            a club dedicated to bringing workshop/hackathon styled events for
-            coders of all levels
-          </h3>
+          <div className={classes.aboutUsWords}>
+            <h1>about us</h1>
+            <h2>who are we?</h2>
+            <h3>
+              a club dedicated to bringing workshop/hackathon styled events for
+              coders of all levels
+            </h3>
+          </div>
           <img
           className={classes.sphere}
           src={require("../assets/vectorsphere.gif")}
