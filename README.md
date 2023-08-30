@@ -40,6 +40,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Hosting on GitHub Pages
+
+To push changes to the GitHub Pages server, run this command in the terminal:
+### `npm run deploy`
+
+Wait until it finishes pushing everything and then the changes will be added to the queue.
+It'll take a few minutes for the changes to appear on the website.
+
 ## Encountering Errors
 
 If there are any errors, try running:
