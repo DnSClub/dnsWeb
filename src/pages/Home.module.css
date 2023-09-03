@@ -111,6 +111,7 @@
     padding: 5rem;
     height: 90vh;
     outline: 0.5px solid #f56476;
+    border-radius: 25px;
     text-align: left;
     float: left;
     width: 100%;
@@ -118,6 +119,7 @@
 
 .personright {
     padding: 5rem;
+    border-radius: 25px;
     height: 90vh;
     outline: 0.5px solid #f56476;
     float: right;
@@ -126,8 +128,10 @@
 }
 
 .persontext {
+    border-radius: 25px;
     outline: 0.5px solid #f56476;
     width: 40em;
+    height: auto;
     font-size:22px;
 }
 

@@ -6,9 +6,29 @@ import { AiOutlineMail } from "react-icons/ai";
 function HomePage() {
   useEffect(() => {
     document.body.style.background =
-      "linear-gradient(120deg, #020091, #A2004C, #FF014A)";
-    document.body.style.backgroundSize = "100% 1100%";
-    document.body.style.animation = "gradientAnimation 30s ease infinite";
+      "linear-gradient(120deg, #000243, #420064, #020091, #A2004C, #420064)";
+    document.body.style.backgroundSize = "600% 600%";
+    document.body.style.animation = "gradientAnimation 15s ease infinite";
+    // Define the @keyframes rule for the gradientAnimation
+    const styleSheet = document.styleSheets[0];
+    if (styleSheet) {
+      styleSheet.insertRule(
+        `
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      `,
+        styleSheet.cssRules.length
+      );
+    }
   }, []);
 
   return (
@@ -16,7 +36,7 @@ function HomePage() {
       <div className={classes.mainTitle}>
         <div className={classes.TitleText}>
           <h1>&#123;</h1> {/* { */}
-            <div className={classes.TitleWords}>
+          <div className={classes.TitleWords}>
             <h1>dns</h1>
             <h2>developers and systems</h2>
             <h3>created by first years, made for all</h3>
@@ -28,7 +48,7 @@ function HomePage() {
           alt="3D Spinning Donut"
         />
       </div>
-      
+
       <div className={classes.aboutUs}>
         <div className={classes.aboutUsText}>
           <div className={classes.aboutUsWords}>
@@ -40,37 +60,37 @@ function HomePage() {
             </h3>
           </div>
           <img
-          className={classes.sphere}
-          src={require("../assets/vectorsphere.gif")}
-          alt="3D Spinning Vector Sphere"
+            className={classes.sphere}
+            src={require("../assets/vectorsphere.gif")}
+            alt="3D Spinning Vector Sphere"
           />
         </div>
       </div>
 
       <div className={classes.people}>
         <div className={classes.personleft}>
-            <h2>president</h2>
-            <h3>Arya Faghihy</h3>
-            <img
+          <h2>president</h2>
+          <h3>Arya Faghihy</h3>
+          <img
             className={classes.personPhoto}
             src={require("../assets/arya.png")}
             alt="Arya Faghihy"
-            />
-            <h2>
-              <a
-                href="https://www.linkedin.com/in/aryafaghihy/"
-                className={classes.links}
-              >
-                <CiLinkedin style={{ fill: "white" }} />
-              </a>
-            </h2>
-            <div className={classes.persontext}>
-              I am passionate about cryptography, machine learning, quantum
-              computing,and mathematics. I've been the recipient of numerous
-              academic awards, demonstrating my commitment to excellence as well
-              as teamwork and leadership skills. My coursework has given me
-              experience in Java, Python, C, and C++.
-            </div>
+          />
+          <h2>
+            <a
+              href="https://www.linkedin.com/in/aryafaghihy/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} />
+            </a>
+          </h2>
+          <div className={classes.persontext}>
+            I am passionate about cryptography, machine learning, quantum
+            computing,and mathematics. I've been the recipient of numerous
+            academic awards, demonstrating my commitment to excellence as well
+            as teamwork and leadership skills. My coursework has given me
+            experience in Java, Python, C, and C++.
+          </div>
         </div>
         <div className={classes.personright}>
           <h2>vice-president</h2>
@@ -188,10 +208,13 @@ function HomePage() {
             src={require("../assets/sam.jpg")}
             alt="Sam"
           />
+          <a href="mfa90@sfu.ca" className={classes.links}>
+            <AiOutlineMail style={{ fill: "white" }} />
+          </a>
         </div>
       </div>
       <div className={classes.footer}>
-        sophia and sog made this slay &#169;
+        Developers and Systems Club at Simon Fraser University 2023 &#169;
       </div>
     </div>
   );

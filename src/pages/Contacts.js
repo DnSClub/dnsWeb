@@ -8,10 +8,31 @@ import classes from "./Contact.module.css";
 function ContactsPage() {
   useEffect(() => {
     document.body.style.background =
-      "linear-gradient(120deg, #020091, #A2004C, #FF014A)";
-    document.body.style.backgroundSize = "100% 1100%";
-    document.body.style.animation = "gradientAnimation 30s ease infinite";
+      "linear-gradient(120deg, #000243, #420064, #020091, #A2004C, #420064)";
+    document.body.style.backgroundSize = "600% 600%";
+    document.body.style.animation = "gradientAnimation 15s ease infinite";
+    // Define the @keyframes rule for the gradientAnimation
+    const styleSheet = document.styleSheets[0];
+    if (styleSheet) {
+      styleSheet.insertRule(
+        `
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      `,
+        styleSheet.cssRules.length
+      );
+    }
   }, []);
+
   return (
     <div className={classes.container}>
       <div className={classes.maintitle}>
@@ -40,6 +61,7 @@ function ContactsPage() {
           <BsDiscord style={{ fill: "white" }} /> join our discord
         </a>
       </div>
+      <div className={classes.footer}>sophia and sog made this slay &#169;</div>
     </div>
   );
 }

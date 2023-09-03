@@ -5,9 +5,12 @@
 }
 
 .container{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-content: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .mainTitle{
