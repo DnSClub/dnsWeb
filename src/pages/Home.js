@@ -83,6 +83,9 @@ function HomePage() {
             >
               <CiLinkedin style={{ fill: "white" }} />
             </a>
+            <a href="mfa90@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
+            </a>
           </h2>
           <div className={classes.persontext}>
             I am passionate about cryptography, machine learning, quantum
@@ -208,9 +211,11 @@ function HomePage() {
             src={require("../assets/sam.jpg")}
             alt="Sam"
           />
-          <a href="mfa90@sfu.ca" className={classes.links}>
-            <AiOutlineMail style={{ fill: "white" }} />
-          </a>
+          <h2>
+            <a href="sza193@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
+            </a>
+          </h2>
         </div>
       </div>
       <div className={classes.footer}>

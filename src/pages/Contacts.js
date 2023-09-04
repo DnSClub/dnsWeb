@@ -40,28 +40,35 @@ function ContactsPage() {
         <div className={classes.aboutText}>
           <h1>contact us</h1>
         </div>
+        <div className={classes.contact}>
+          <h3 style={{ fontStyle: "italic" }}>
+            <a href="dns_exec@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} /> send us an email
+            </a>
+            <br></br>
+            <a
+              href="https://www.linkedin.com/company/sfudns/"
+              className={classes.links}
+            >
+              <CiLinkedin style={{ fill: "white" }} /> connect with us
+            </a>
+            <br></br>
+            <a
+              href="https://www.instagram.com/sfu_dns"
+              className={classes.links}
+            >
+              <AiOutlineInstagram style={{ fill: "white" }} /> follow us
+            </a>
+            <br></br>
+            <a href="https://discord.gg/bDTJYPXu" className={classes.links}>
+              <BsDiscord style={{ fill: "white" }} /> join our discord
+            </a>
+          </h3>
+        </div>
       </div>
-      <div className={classes.contact}>
-        <a href="dns_exec@sfu.ca" className={classes.links}>
-          <AiOutlineMail style={{ fill: "white" }} /> send us an email
-        </a>
-        <br></br>
-        <a
-          href="https://www.linkedin.com/company/sfudns/"
-          className={classes.links}
-        >
-          <CiLinkedin style={{ fill: "white" }} /> connect with us
-        </a>
-        <br></br>
-        <a href="https://www.instagram.com/sfu_dns" className={classes.links}>
-          <AiOutlineInstagram style={{ fill: "white" }} /> follow us
-        </a>
-        <br></br>
-        <a href="https://discord.gg/bDTJYPXu" className={classes.links}>
-          <BsDiscord style={{ fill: "white" }} /> join our discord
-        </a>
+      <div className={classes.footer}>
+        Developers and Systems Club at Simon Fraser University 2023 &#169;
       </div>
-      <div className={classes.footer}>sophia and sog made this slay &#169;</div>
     </div>
   );
 }

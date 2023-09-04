@@ -1,11 +1,13 @@
 .header {
-    width: 100%;
+    width: 96%;
     height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
     margin: auto;
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    border-radius: 25px;
 }
 
 .dns {
@@ -19,7 +21,7 @@
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: bold;
 }

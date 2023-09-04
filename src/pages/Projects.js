@@ -33,13 +33,15 @@ function ProjectsPage() {
   return (
     <div className={classes.container}>
       <div className={classes.mainTitle}>
-        <h1>&#123;</h1>
-        <div className={classes.aboutText}>
-          <h1>
-            projects and
-            <br />
-            events
-          </h1>
+        <div className={classes.titleText}>
+          <h1>&#123;</h1>
+          <div className={classes.aboutText}>
+            <h1>
+              projects and
+              <br />
+              events
+            </h1>
+          </div>
         </div>
       </div>
       <br></br>
@@ -92,7 +94,7 @@ function ProjectsPage() {
       </div>
 
       <div className={classes.footer}>
-        <h3>sophia and sog made this slay</h3>
+        Developers and Systems Club at Simon Fraser University 2023 &#169;
       </div>
     </div>
   );

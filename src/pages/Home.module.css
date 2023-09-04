@@ -5,12 +5,17 @@
     align-content: center;
     padding-left: 4rem;
     padding-right: 4rem;
+    
 }
 
 .mainTitle{
     outline: 0.5px solid #f56476;
     height: 90vh;
     position: relative;
+    box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
+    border-radius: 25px;
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.093));
+    margin-bottom: 1em;
 }
 
 .TitleText{
@@ -57,9 +62,14 @@
     outline: 0.5px solid #f56476;
     position: relative;
     color: white;
+    box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
+    border-radius: 25px;
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.093));
+    margin-bottom: 1em;
 }
 
 .aboutUsWords{
+    text-align: right;
     margin-left: 50%;
     width: 45%;
     position: absolute;
@@ -92,12 +102,14 @@
 }
 
 .people img {
-    outline: 3px solid white;
     float: right;
     height: 50rem;
     max-height: 50%;
     object-fit: scale-down;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
 }
+
 
 .personleft img{
     float: right;
@@ -108,6 +120,10 @@
 }
 
 .personleft {
+    box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
+    border-radius: 25px;
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.093));
+    margin-bottom: 1em;
     padding: 5rem;
     height: 90vh;
     outline: 0.5px solid #f56476;
@@ -125,20 +141,30 @@
     float: right;
     text-align: right;
     width: 100%;
+    box-shadow: 30px 30px 20px rgba(30, 30, 30, 0.156);
+    border-radius: 25px;
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.093));
+    margin-bottom: 1em;
 }
 
 .persontext {
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.086), rgba(255, 255, 255, 0.03));
+    border-radius: 25px;
+    box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
     border-radius: 25px;
     outline: 0.5px solid #f56476;
-    width: 40em;
+    width: 50em;
     height: auto;
     font-size:22px;
 }
 
 .footer{
     outline: 0.5px solid #f56476;
-    text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;
+    border-radius: 5px;
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+    text-align: center;
 }
