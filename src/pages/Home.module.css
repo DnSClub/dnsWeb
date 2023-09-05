@@ -149,7 +149,7 @@
     margin-bottom: 1em;
 }
 
-.persontext {
+.persontextleft {
     padding: 1em;
     background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.086), rgba(255, 255, 255, 0.03));
     border-radius: 25px;
@@ -160,6 +160,17 @@
     font-size: 1.5rem;
 }
 
+.persontextright {
+    padding: 1em;
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.086), rgba(255, 255, 255, 0.03));
+    border-radius: 25px;
+    box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
+    border-radius: 25px;
+    width: 35em;
+    height: auto;
+    font-size: 1.5rem;
+    float: right;
+}
 a:hover,
 a:active,
 a.active {

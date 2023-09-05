@@ -59,7 +59,7 @@ function HomePage() {
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
-          <div className={classes.persontext}>
+          <div className={classes.persontextleft}>
             I am passionate about cryptography, machine learning, quantum
             computing,and mathematics. I've been the recipient of numerous
             academic awards, demonstrating my commitment to excellence as well
@@ -87,6 +87,15 @@ function HomePage() {
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
+          <div className={classes.persontextright}>
+            Hello, I'm a second year CS student at SFU! My coding journey began
+            at the age of 8 on Khan Academy, and I've since become an enthusiast
+            of programming language development. In 2018, I received the
+            prestigious PARC Systems Award for my efforts. I also have hands-on
+            experience as a former developer at MindBlocks Studio, LLC, where I
+            contributed to a video game with over 10 million downloads on Google
+            Play, 1 million on iOS, and 20,000 on Steam.
+          </div>
         </div>
         <div className={classes.personleft}>
           <h2>director of communications and multimedia</h2>
@@ -107,16 +116,17 @@ function HomePage() {
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
-          <div className={classes.persontext}>
+          <div className={classes.persontextleft}>
             Hello! I'm Song! I'm a Computing Science student at Simon Fraser
             University who's passionate about everything related to computer
             science. I find myself drawn to areas like full-stack development,
-            software engineering, data science, and product management, and
+            software engineering, data science, product management, and
             cybersecurity. I love learning and always stay curious about the
-            latest innovations and <br></br>
-            breakthroughs in technology. On top of that, I enjoy getting
-            creative with digital projects, whether it's working with DNS or
-            video editing for the SFU Computing Student Society social media.
+            latest innovations and breakthroughs in technology. Being able to
+            bring creativity to something so technical of a computer is so
+            beautiful to me. <br></br>On top of that, I enjoy getting creative
+            with digital projects, whether it's working with DNS or video
+            editing for the SFU Computing Student Society social media.
           </div>
         </div>
         <div className={classes.personright}>
@@ -134,10 +144,15 @@ function HomePage() {
             >
               <CiLinkedin style={{ fill: "white" }} />
             </a>
-            <a href="eka74@sfu.ca" className={classes.links}>
+            <a href="saa183@sfu.ca" className={classes.links}>
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
+
+          <div className={classes.persontextright}>
+            Hey I'm Saraang! Currently, I'm a 2nd year CS student at Simon
+            Fraser University!
+          </div>
         </div>
         <div className={classes.personleft}>
           <h2>director of events</h2>
@@ -158,7 +173,7 @@ function HomePage() {
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
-          <div className={classes.persontext}>
+          <div className={classes.persontextleft}>
             My name's Sophia and I'm a first-year studying computer science at
             Simon Fraser University. I'm still exploring but I have an interest
             in software development, game development, AI, ML, and UI/UX
@@ -191,6 +206,10 @@ function HomePage() {
               <AiOutlineMail style={{ fill: "white" }} />
             </a>
           </h2>
+          <div className={classes.persontextright}>
+            Hey! I'm Sam, I'm a second year Computing Science student at Simon
+            Fraser University!
+          </div>
         </div>
       </div>
     </div>
