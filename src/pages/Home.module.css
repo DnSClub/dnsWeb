@@ -157,14 +157,3 @@
     height: auto;
     font-size:22px;
 }
-
-.footer{
-    outline: 0.5px solid #f56476;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-radius: 5px;
-    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
-    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
-    text-align: center;
-}

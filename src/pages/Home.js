@@ -218,9 +218,6 @@ function HomePage() {
           </h2>
         </div>
       </div>
-      <div className={classes.footer}>
-        Developers and Systems Club at Simon Fraser University 2023 &#169;
-      </div>
     </div>
   );
 }
