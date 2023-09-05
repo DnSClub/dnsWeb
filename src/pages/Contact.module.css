@@ -9,13 +9,15 @@
 .contact {
     display: flex;
     flex-direction: column;
+    float: right;
     align-content: center;
-    text-align: right;
     font-style: italic;
     padding-right: 5em;
 }
 
 .links{
+    
+    text-align: left;
     text-decoration: none;
 }
 

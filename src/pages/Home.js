@@ -154,6 +154,9 @@ function HomePage() {
             >
               <CiLinkedin style={{ fill: "white" }} />
             </a>
+            <a href="syd3@sfu.ca" className={classes.links}>
+              <AiOutlineMail style={{ fill: "white" }} />
+            </a>
           </h2>
           <div className={classes.persontext}>
             My name's Sophia and I'm a first-year studying computer science at

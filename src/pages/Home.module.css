@@ -9,7 +9,6 @@
 }
 
 .mainTitle{
-    outline: 0.5px solid #f56476;
     height: 90vh;
     position: relative;
     box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
@@ -59,7 +58,6 @@
 
 .aboutUs{
     height: 90vh;
-    outline: 0.5px solid #f56476;
     position: relative;
     color: white;
     box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
@@ -103,8 +101,8 @@
 
 .people img {
     float: right;
-    height: 50rem;
-    max-height: 50%;
+    height: 50em;
+    max-height: 25rem;
     object-fit: scale-down;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
@@ -112,10 +110,14 @@
 
 
 .personleft img{
+    display: flex;
+    align-items: center;
     float: right;
 }
 
 .personright img{
+    display: flex;
+    align-items: center;
     float: left;
 }
 
@@ -125,8 +127,8 @@
     background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.093));
     margin-bottom: 1em;
     padding: 5rem;
-    height: 90vh;
-    outline: 0.5px solid #f56476;
+    height: auto;
+    min-height: 90vh;
     border-radius: 25px;
     text-align: left;
     float: left;
@@ -137,7 +139,7 @@
     padding: 5rem;
     border-radius: 25px;
     height: 90vh;
-    outline: 0.5px solid #f56476;
+    min-height: 90vh;
     float: right;
     text-align: right;
     width: 100%;
@@ -148,12 +150,19 @@
 }
 
 .persontext {
+    padding: 1em;
     background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.086), rgba(255, 255, 255, 0.03));
     border-radius: 25px;
     box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
     border-radius: 25px;
-    outline: 0.5px solid #f56476;
-    width: 50em;
+    width: 35em;
     height: auto;
-    font-size:22px;
+    font-size: 1.5rem;
+}
+
+a:hover,
+a:active,
+a.active {
+    opacity: 0.5;
+    transition: 0.3s;
 }
