@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dnsWeb/static/css/main.0bf3b35c.css",
-    "main.js": "/dnsWeb/static/js/main.c9d5798b.js",
+    "main.css": "/dnsWeb/static/css/main.6107fc54.css",
+    "main.js": "/dnsWeb/static/js/main.74f6f6f9.js",
     "static/media/saraang.png": "/dnsWeb/static/media/saraang.33f5dbb982bcc8040b65.png",
     "static/media/sophia.jpg": "/dnsWeb/static/media/sophia.d3d7fcb8613aa0b58505.jpg",
     "static/media/arya.png": "/dnsWeb/static/media/arya.6e5db0531ab356dea4a5.png",
@@ -13,11 +13,11 @@
     "static/media/libcomp.png": "/dnsWeb/static/media/libcomp.3aeb3deb8392bd1c1f0f.png",
     "static/media/donut.gif": "/dnsWeb/static/media/donut.e9a886c44f66b704df78.gif",
     "index.html": "/dnsWeb/index.html",
-    "main.0bf3b35c.css.map": "/dnsWeb/static/css/main.0bf3b35c.css.map",
-    "main.c9d5798b.js.map": "/dnsWeb/static/js/main.c9d5798b.js.map"
+    "main.6107fc54.css.map": "/dnsWeb/static/css/main.6107fc54.css.map",
+    "main.74f6f6f9.js.map": "/dnsWeb/static/js/main.74f6f6f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf3b35c.css",
-    "static/js/main.c9d5798b.js"
+    "static/css/main.6107fc54.css",
+    "static/js/main.74f6f6f9.js"
   ]
 }
