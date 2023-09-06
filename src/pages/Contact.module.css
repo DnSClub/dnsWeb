@@ -6,29 +6,25 @@
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
 .contact {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    align-content: center;
     font-style: italic;
-    padding-right: 5em;
+    padding-left: 10rem;
 }
 
 .links{
-    
     text-align: left;
     text-decoration: none;
 }
 
 .maintitle{
+    height: 90vh;
     padding: 5rem;
     background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
     border-radius: 25px;
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
 }
 
-
 .aboutText{
-    padding-left: 8em;
+    padding-left: 10rem;
 }

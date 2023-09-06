@@ -174,23 +174,14 @@ function HomePage() {
             </a>
           </h2>
           <div className={classes.persontextleft}>
-            My name's Sophia and I'm a first-year studying computer science at
+            My name's Sophia and I'm a second-year studying computer science at
             Simon Fraser University. I'm still exploring but I have an interest
-            in software development, game development, AI, ML, and UI/UX
-            design.With my passions, I am looking forward to pursuing a career
-            in software engineering.
+            in software development, game development, AI, and UI/UX design.
             <br></br>
-            <br></br>💻 I have been heavily involved in workshops, hackathons,
+            <br></br>
+            💻 I have been heavily involved in workshops, hackathons,
             and projects to broaden and strengthen my skills. In my leisure, I
-            tinker with my projects, such as my AI Discord chat bots. From these
-            experiences, I have expanded my proficiency in Python, C, C++, HTML,
-            CSS, and SQL and learnt how to use tools such as Figma, Bootstrap,
-            and various APIs. Currently, I am working at a student-led
-            non-profit organization, Project Tech Conferences, as part of their
-            tech committee's front end developer to help provide students
-            technological opportunities. Along my journey, I aspire to meet new
-            people and make new memories as I take on new experiences and
-            opportunities!
+            tinker with my projects, such as my AI Discord chat bots.
           </div>
         </div>
         <div className={classes.personright}>

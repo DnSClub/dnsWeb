@@ -5,7 +5,71 @@
     align-content: center;
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .container h1 {
+        font-size: 3rem;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+    }
+
+    .container h3 {
+        font-size: 1.5rem;
+    }
+
+    .mainTitle .TitleText {
+        margin-left: 2rem;
+    }
+
+    .mainTitle .TitleWords {
+        margin-left: 4rem;
+        width: 100%;
+    }
+
+    .mainTitle .bagel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        bottom: 1rem;
+        padding-top: 15em;
+    }
+}
+  
+@media only screen and (min-width: 3400px) {
+    .container {
+        width: 60%;
+    }
     
+    .mainTitle {
+        height: 100rem;
+    }
+
+    .aboutUs {
+        height: 100rem;
+    }
+
+    .personleft {
+        height: auto;
+        min-height: 25rem;
+    }
+
+    .personright {
+        height: auto;
+        min-height: 25rem;
+    }
+
+    .bagel {
+        position: absolute;
+    }
 }
 
 .mainTitle{
@@ -40,8 +104,8 @@
 
 .bagel{
     mix-blend-mode: screen;
-    position: absolute; bottom: 5%; right: 5%;
-    height: 50rem;
+    position: absolute; bottom: 10em; right: 5em;
+    height: 50em;
     max-height: 50%;
 }
 
@@ -75,34 +139,14 @@
     transform: translateY(-50%);
 }
 
-@media only screen and (min-width: 960px) {
-  .mainTitle {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 3400px) {
-    .container {
-        width: 60%;
-    }
-    
-    .mainTitle {
-        height: 60%;
-    }
-
-    .bagel {
-        position: absolute;
-    }
-}
-
 .people {
     width: 100%;
 }
 
 .people img {
     float: right;
-    height: 50em;
-    max-height: 25rem;
+    height: 25em;
+    max-height: 50em;
     object-fit: scale-down;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
