@@ -13,7 +13,7 @@ function ContactsPage() {
           <h1>contact us</h1>
         </div>
         <div className={classes.contact}>
-          <h3 style={{ fontStyle: "italic" }}>
+          <h3 style={{ fontStyle: "italic", fontSize: "25px" }}>
             <a href="dns_exec@sfu.ca" className={classes.links}>
               <AiOutlineMail style={{ fill: "white" }} /> send us an email
             </a>

@@ -150,8 +150,12 @@ function HomePage() {
           </h2>
 
           <div className={classes.persontextright}>
-            Hey I'm Saraang! Currently, I'm a 2nd year CS student at Simon
-            Fraser University!
+            Hi! I'm Saarang, a second-year CS student at SFU. I'm passionate
+            about both front and back-end development, and I have a special
+            interest in game design. You'll often find me at hackathons and tech
+            club events, whether as a participant or organizer. Beyond
+            technology, I'm also fascinated by the latest advancements in
+            science and space exploration.
           </div>
         </div>
         <div className={classes.personleft}>
@@ -179,8 +183,8 @@ function HomePage() {
             in software development, game development, AI, and UI/UX design.
             <br></br>
             <br></br>
-            💻 I have been heavily involved in workshops, hackathons,
-            and projects to broaden and strengthen my skills. In my leisure, I
+            💻 I have been heavily involved in workshops, hackathons, and
+            projects to broaden and strengthen my skills. In my leisure, I
             tinker with my projects, such as my AI Discord chat bots.
           </div>
         </div>
@@ -198,8 +202,13 @@ function HomePage() {
             </a>
           </h2>
           <div className={classes.persontextright}>
-            Hey! I'm Sam, I'm a second year Computing Science student at Simon
-            Fraser University!
+            Hello, I'm Shanglin, a second-year Computing Science student at SFU,
+            and I proudly serve as the Director of Resources for the Developers
+            and System Club (DNS). Within the tech world, my passion lies in
+            harnessing AI to boost daily productivity for everyone. Beyond
+            coding and algorithms, I find my creative outlet in playing metal
+            guitar. This combination of interests makes me a unique addition to
+            DNS.
           </div>
         </div>
       </div>
