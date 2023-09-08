@@ -1,5 +1,5 @@
 .links{
-    font-size: 1.9em;
+    font-size: 2em;
     font-style: italic;
     text-decoration: none;
 }
@@ -37,12 +37,17 @@
 }
 
 .projectDesc{
+    margin-top: 3em;
+    height: auto;
     width: 30em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 2em;
     background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.086), rgba(255, 255, 255, 0.03));
     border-radius: 25px;
     box-shadow: -30px 30px 20px rgba(30, 30, 30, 0.156);
+}
+
+.projectDesc h3 {
+    margin: 0;
 }
 
 .projectphoto{
