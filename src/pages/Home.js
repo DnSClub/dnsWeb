@@ -42,7 +42,7 @@ function HomePage() {
       <div className={classes.people}>
         <div className={classes.personleft}>
           <h2>president</h2>
-          <h3>Arya Faghihy</h3>
+          <h3>Arya</h3>
           <img
             className={classes.personPhoto}
             src={require("../assets/arya.png")}
