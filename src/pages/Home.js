@@ -60,11 +60,17 @@ function HomePage() {
             </a>
           </h2>
           <div className={classes.persontextleft}>
-            I am passionate about cryptography, machine learning, quantum
-            computing,and mathematics. I've been the recipient of numerous
-            academic awards, demonstrating my commitment to excellence as well
-            as teamwork and leadership skills. My coursework has given me
-            experience in Java, Python, C, and C++.
+            Hi! I’m Arya, a second-year computing science student here at SFU.I
+            am passionate about cybersecurity, A.I., machine learning,
+            networking as well as full-stack web development. Since the age of
+            13, I’ve spent a large amount of my time delving into these topics
+            while participating in hackathons, game jams and coding competitions
+            to test my skills and keep improving. My go-to programming languages
+            are C++, Python, C, Java & Javascript. I’ve been the recipient of
+            numerous accolades for my academic & volunteer work, demonstrating
+            my commitment to excellence as well as my teamwork & leadership
+            skills. Feel free to reach out to me on Email, LinkedIn or on
+            Discord!
           </div>
         </div>
         <div className={classes.personright}>
