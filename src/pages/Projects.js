@@ -64,6 +64,29 @@ function ProjectsPage() {
           </h3>
         </div>
       </div>
+      <div className={classes.project}>
+        <h2>WEBCRAFT</h2>
+        <b>
+          {" "}
+          <a
+            href="https://github.com/DnSClub/Webdev-Fall-2023"
+            className={classes.links}
+          >
+            <AiFillGithub style={{ fill: "white" }} /> more information
+          </a>
+        </b>
+        <img
+          className={classes.projectphoto}
+          src={require("../assets/webcraftV2.png")}
+          alt="WebCraft"
+        />
+        <div className={classes.projectDesc}>
+          <h3>
+            A time crunch challenge for web developers of all skill ranges to
+            compete for prizes of different categories.
+          </h3>
+        </div>
+      </div>
     </div>
   );
 }

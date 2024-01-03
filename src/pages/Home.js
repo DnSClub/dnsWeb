@@ -1,6 +1,7 @@
 import classes from "./Home.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
+import { CiLink } from "react-icons/ci";
 
 function HomePage() {
   return (
@@ -112,8 +113,11 @@ function HomePage() {
             alt="Song"
           />
           <h2>
+            <a href="https://songk.live" className={classes.links}>
+              <CiLink style={{ fill: "white" }} />
+            </a>
             <a
-              href="https://www.linkedin.com/in/eunsongkoh/"
+              href="https://www.linkedin.com/in/songkoh/"
               className={classes.links}
             >
               <CiLinkedin style={{ fill: "white" }} />
@@ -130,9 +134,10 @@ function HomePage() {
             cybersecurity. I love learning and always stay curious about the
             latest innovations and breakthroughs in technology. Being able to
             bring creativity to something so technical of a computer is so
-            beautiful to me. <br></br>On top of that, I enjoy getting creative
-            with digital projects, whether it's working with DNS or video
-            editing for the SFU Computing Student Society social media.
+            beautiful to me. <br></br>
+            <br></br>On top of that, I enjoy getting creative with digital
+            projects, whether it's working with DNS or video editing for the SFU
+            Computing Student Society social media.
           </div>
         </div>
         <div className={classes.personright}>
