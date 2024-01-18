@@ -32,7 +32,7 @@ function ContactsPage() {
               <AiOutlineInstagram style={{ fill: "white" }} /> follow us
             </a>
             <br></br>
-            <a href="https://discord.gg/bDTJYPXu" className={classes.links}>
+            <a href="https://discord.gg/KHxdUNTb23" className={classes.links}>
               <BsDiscord style={{ fill: "white" }} /> join our discord
             </a>
           </h3>
